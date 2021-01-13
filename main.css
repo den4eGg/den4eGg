@@ -1,0 +1,73 @@
+header {
+height: 2%;
+justify-content: space-around;
+align-items: baseline;
+display: flex;
+padding: 2%;
+font-family: 'Gilroy'
+}
+
+footer{
+    background : #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 50px;
+    font-family: 'Gilroy'
+}
+.SelfCl{
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+  }
+.denPic{
+	width: 50%;
+}
+.denPic2{
+	width: 20%;
+}
+.denPic3{
+	width: 80%;
+}
+.DenText{
+	margin-top:30%;
+}
+.ОРаботе{
+	text-align: center;
+	margin: 5%;
+}	
+  .ОСебе {
+    font-size: 34px;
+    font-family: "Gilroy";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+margin: 0;
+align-items: center;
+  }
+    .Имя {
+    font-size: 45px;
+
+  }
+ 
+ @media screen and (max-width: 800px) {
+	 header {
+		font-size:60%;
+	 }
+  .ОСебе {
+		font-size:100%
+  }	
+ @media screen and (max-width: 500px) {
+	 header {
+		font-size:20%;
+	 }
+   .Текст{
+		font-size:8px;
+   }
+      .Текст2{
+		font-size:12px;
+   }
+   
