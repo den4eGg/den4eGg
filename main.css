@@ -22,6 +22,22 @@ footer{
     justify-content: center;
     align-items: center;
   }
+ .Background_1{
+	background-image: url('images/Фон.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+ }
+ .Background_2{
+	background-image: url('images/Фон2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+ }
+ .Background_3{
+	 
+ }
+ .Background_4{
+	 
+ }
 .denPic{
 	width: 50%;
 }
